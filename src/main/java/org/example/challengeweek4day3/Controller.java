@@ -77,7 +77,7 @@ public class Controller {
         return users;
     }
 
-    @GetMapping("/users/Data")
+    @GetMapping("/users")
     public String addUser() {
         String user = "User "+(++counter);
 
