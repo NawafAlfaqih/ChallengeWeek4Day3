@@ -77,7 +77,7 @@ public class Controller {
         return users;
     }
 
-    @GetMapping("/logoutTime")
+    @GetMapping("/users/Data")
     public String addUser() {
         String user = "User "+(++counter);
 
